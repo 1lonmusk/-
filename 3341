@@ -1,0 +1,50 @@
+# a = 3
+# b = 7
+
+# a = int(input())
+# print(a, type(a))
+
+# a = "   Hello python!, life is too short for us?   "
+# print(a.find("!")) 위치를 알려줌
+# print(a.find("k")) 없는값은 -1
+
+# print(a.count("l")) 해당 문자열에서 입력된 문자의 갯수를 알려줌
+
+# a.lstrip() 왼쪽 공백 삭제
+# a.rstrip() 오른쪽 공백 삭제
+# a.strip() 양쪽 공백 삭제
+
+# print(a.index("o")) 제일 처음값에 수를 알려준다
+# print(a.index("k")) 문자열에서 포함하지않으면 에러가 뜬다
+
+# print(a.upper()) 소문자 -> 대문자
+# print(a.lower()) 대문자 -> 소문자
+
+# print(a.replace("Life","every thing")) 해당 문자열을 입력된 문자열로 바꿈
+
+# print(a.split(" ")) 입력된 갑을 기준으로 문자열을 나눈다
+
+# a = int(input())
+
+# if a > 89:
+#     print("A")
+# elif a < 89 and a > 79:
+#     print("B")
+# elif a < 79 and a > 69:
+#     print("C")
+# elif a < 69 and a > 59:
+#     print("D")
+# elif a < 60:
+#     print("F")
+
+# a = 0
+# while True:
+#
+#     if 5 <= a <= 10:
+#         continue
+#
+#     print(a)
+#     a= a + 1
+#
+#     if a == 20:
+#         break
